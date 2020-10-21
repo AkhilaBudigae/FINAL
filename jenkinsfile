@@ -15,7 +15,7 @@ pipeline{
         stages{
 
 
-              stage('Quality Gate Status Check'){
+              stage('Quality Gate Status Check-01'){
 
                agent {
                 docker {
